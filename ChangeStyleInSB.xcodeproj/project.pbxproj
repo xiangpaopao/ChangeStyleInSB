@@ -16,22 +16,8 @@
 		A9CB5513195A6AE500AC6A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CB5511195A6AE500AC6A7A /* Main.storyboard */; };
 		A9CB5516195A6AE500AC6A7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CB5515195A6AE500AC6A7A /* ViewController.m */; };
 		A9CB5518195A6AE500AC6A7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CB5517195A6AE500AC6A7A /* Images.xcassets */; };
-		A9CB551F195A6AE500AC6A7A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CB551E195A6AE500AC6A7A /* XCTest.framework */; };
-		A9CB5520195A6AE500AC6A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CB54FF195A6AE500AC6A7A /* Foundation.framework */; };
-		A9CB5521195A6AE500AC6A7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CB5503195A6AE500AC6A7A /* UIKit.framework */; };
-		A9CB5529195A6AE500AC6A7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9CB5527195A6AE500AC6A7A /* InfoPlist.strings */; };
-		A9CB552B195A6AE500AC6A7A /* ChangeStyleInSBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CB552A195A6AE500AC6A7A /* ChangeStyleInSBTests.m */; };
+		A9CB5536195A6BFD00AC6A7A /* CALayer+XibConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CB5535195A6BFD00AC6A7A /* CALayer+XibConfiguration.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A9CB5522195A6AE500AC6A7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9CB54F4195A6AE500AC6A7A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A9CB54FB195A6AE500AC6A7A;
-			remoteInfo = ChangeStyleInSB;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A9CB54FC195A6AE500AC6A7A /* ChangeStyleInSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeStyleInSB.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +34,9 @@
 		A9CB5514195A6AE500AC6A7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A9CB5515195A6AE500AC6A7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A9CB5517195A6AE500AC6A7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A9CB551D195A6AE500AC6A7A /* ChangeStyleInSBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeStyleInSBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CB551E195A6AE500AC6A7A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A9CB5526195A6AE500AC6A7A /* ChangeStyleInSBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChangeStyleInSBTests-Info.plist"; sourceTree = "<group>"; };
-		A9CB5528195A6AE500AC6A7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A9CB552A195A6AE500AC6A7A /* ChangeStyleInSBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeStyleInSBTests.m; sourceTree = "<group>"; };
+		A9CB5534195A6BFD00AC6A7A /* CALayer+XibConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XibConfiguration.h"; sourceTree = "<group>"; };
+		A9CB5535195A6BFD00AC6A7A /* CALayer+XibConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XibConfiguration.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +50,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9CB551A195A6AE500AC6A7A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9CB551F195A6AE500AC6A7A /* XCTest.framework in Frameworks */,
-				A9CB5521195A6AE500AC6A7A /* UIKit.framework in Frameworks */,
-				A9CB5520195A6AE500AC6A7A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				A9CB5505195A6AE500AC6A7A /* ChangeStyleInSB */,
-				A9CB5524195A6AE500AC6A7A /* ChangeStyleInSBTests */,
 				A9CB54FE195A6AE500AC6A7A /* Frameworks */,
 				A9CB54FD195A6AE500AC6A7A /* Products */,
 			);
@@ -93,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				A9CB54FC195A6AE500AC6A7A /* ChangeStyleInSB.app */,
-				A9CB551D195A6AE500AC6A7A /* ChangeStyleInSBTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +89,8 @@
 				A9CB5511195A6AE500AC6A7A /* Main.storyboard */,
 				A9CB5514195A6AE500AC6A7A /* ViewController.h */,
 				A9CB5515195A6AE500AC6A7A /* ViewController.m */,
+				A9CB5534195A6BFD00AC6A7A /* CALayer+XibConfiguration.h */,
+				A9CB5535195A6BFD00AC6A7A /* CALayer+XibConfiguration.m */,
 				A9CB5517195A6AE500AC6A7A /* Images.xcassets */,
 				A9CB5506195A6AE500AC6A7A /* Supporting Files */,
 			);
@@ -130,24 +104,6 @@
 				A9CB5508195A6AE500AC6A7A /* InfoPlist.strings */,
 				A9CB550B195A6AE500AC6A7A /* main.m */,
 				A9CB550D195A6AE500AC6A7A /* ChangeStyleInSB-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A9CB5524195A6AE500AC6A7A /* ChangeStyleInSBTests */ = {
-			isa = PBXGroup;
-			children = (
-				A9CB552A195A6AE500AC6A7A /* ChangeStyleInSBTests.m */,
-				A9CB5525195A6AE500AC6A7A /* Supporting Files */,
-			);
-			path = ChangeStyleInSBTests;
-			sourceTree = "<group>";
-		};
-		A9CB5525195A6AE500AC6A7A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A9CB5526195A6AE500AC6A7A /* ChangeStyleInSBTests-Info.plist */,
-				A9CB5527195A6AE500AC6A7A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,24 +128,6 @@
 			productReference = A9CB54FC195A6AE500AC6A7A /* ChangeStyleInSB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A9CB551C195A6AE500AC6A7A /* ChangeStyleInSBTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9CB5531195A6AE500AC6A7A /* Build configuration list for PBXNativeTarget "ChangeStyleInSBTests" */;
-			buildPhases = (
-				A9CB5519195A6AE500AC6A7A /* Sources */,
-				A9CB551A195A6AE500AC6A7A /* Frameworks */,
-				A9CB551B195A6AE500AC6A7A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A9CB5523195A6AE500AC6A7A /* PBXTargetDependency */,
-			);
-			name = ChangeStyleInSBTests;
-			productName = ChangeStyleInSBTests;
-			productReference = A9CB551D195A6AE500AC6A7A /* ChangeStyleInSBTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,11 +135,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				TargetAttributes = {
-					A9CB551C195A6AE500AC6A7A = {
-						TestTargetID = A9CB54FB195A6AE500AC6A7A;
-					};
-				};
 			};
 			buildConfigurationList = A9CB54F7195A6AE500AC6A7A /* Build configuration list for PBXProject "ChangeStyleInSB" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -217,7 +150,6 @@
 			projectRoot = "";
 			targets = (
 				A9CB54FB195A6AE500AC6A7A /* ChangeStyleInSB */,
-				A9CB551C195A6AE500AC6A7A /* ChangeStyleInSBTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,14 +165,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9CB551B195A6AE500AC6A7A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9CB5529195A6AE500AC6A7A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -248,29 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9CB5536195A6BFD00AC6A7A /* CALayer+XibConfiguration.m in Sources */,
 				A9CB5516195A6AE500AC6A7A /* ViewController.m in Sources */,
 				A9CB5510195A6AE500AC6A7A /* AppDelegate.m in Sources */,
 				A9CB550C195A6AE500AC6A7A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9CB5519195A6AE500AC6A7A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9CB552B195A6AE500AC6A7A /* ChangeStyleInSBTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A9CB5523195A6AE500AC6A7A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A9CB54FB195A6AE500AC6A7A /* ChangeStyleInSB */;
-			targetProxy = A9CB5522195A6AE500AC6A7A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A9CB5508195A6AE500AC6A7A /* InfoPlist.strings */ = {
@@ -287,14 +196,6 @@
 				A9CB5512195A6AE500AC6A7A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A9CB5527195A6AE500AC6A7A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9CB5528195A6AE500AC6A7A /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -396,46 +297,6 @@
 			};
 			name = Release;
 		};
-		A9CB5532195A6AE500AC6A7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChangeStyleInSB.app/ChangeStyleInSB";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChangeStyleInSB/ChangeStyleInSB-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ChangeStyleInSBTests/ChangeStyleInSBTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		A9CB5533195A6AE500AC6A7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChangeStyleInSB.app/ChangeStyleInSB";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChangeStyleInSB/ChangeStyleInSB-Prefix.pch";
-				INFOPLIST_FILE = "ChangeStyleInSBTests/ChangeStyleInSBTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,14 +316,7 @@
 				A9CB5530195A6AE500AC6A7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		A9CB5531195A6AE500AC6A7A /* Build configuration list for PBXNativeTarget "ChangeStyleInSBTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9CB5532195A6AE500AC6A7A /* Debug */,
-				A9CB5533195A6AE500AC6A7A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
